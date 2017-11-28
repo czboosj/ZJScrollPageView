@@ -620,8 +620,9 @@
 				TargetAttributes = {
 					4B0C062B1CDC55080079E8F3 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9G8PCT5S2D;
+						DevelopmentTeam = VZA4V5RJLK;
 						DevelopmentTeamName = "晶 曾 (Personal Team)";
+						ProvisioningStyle = Manual;
 					};
 					4B0C06441CDC55080079E8F3 = {
 						CreatedOnToolsVersion = 7.3;
@@ -872,12 +873,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = ZJScrollPageView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.ZJScrollPageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 			};
 			name = Debug;
 		};
@@ -887,12 +891,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = ZJScrollPageView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.ZJScrollPageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 			};
 			name = Release;
 		};
